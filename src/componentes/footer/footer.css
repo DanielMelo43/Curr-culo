@@ -1,0 +1,22 @@
+footer p{
+    margin-top: 20px;
+   justify-content: center;
+
+}
+.redes {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  gap: 24px; 
+  margin-top: 10px;
+}
+
+.redes img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+footer img:hover {
+    transform: scale(1.2);
+}
